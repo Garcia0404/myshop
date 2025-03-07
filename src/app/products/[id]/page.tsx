@@ -73,7 +73,7 @@ export default function ProductPage() {
                   </form>
                 </div>
                 <div className="text-[#ecedee80] mt-4 text-xl md:text-2xl font-extralight">{product.descripcion}</div>
-                <button disabled={selectedSize === ""} onClick={() => addToCart({ ...product, talla: selectedSize })} className={`w-full ${selectedSize !== "" ? "hover:bg-white hover:text-zinc-900 transition-all duration-300 active:scale-95 hover:scale-[1.03] cursor-pointer" : "border-white/30 text-white/30"} py-2 border mt-6`}>Agregar al carrito</button>
+                <button disabled={selectedSize === ""} onClick={() => addToCart({ ...product, talla: selectedSize })} className={`w-full ${selectedSize !== "" ? "hover:bg-white focus:bg-white focus:text-zinc-900 hover:text-zinc-900 transition-all duration-300 active:scale-95 hover:scale-[1.03] cursor-pointer" : "border-white/30 text-white/30"} py-2 border mt-6`}>Agregar al carrito</button>
               </div>
             </section>
           </>
