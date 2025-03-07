@@ -15,7 +15,6 @@ const OptionLink = ({ label, value, handleClick }: { label: string, value: strin
 }
 export const Select = ({ className, children, options }: { className: string, children: React.ReactNode, options: { label: string, value: string }[] }) => {
   const ref = useRef<HTMLDivElement>(null as unknown as HTMLDivElement)
-  const addQuery = useAddQuery();
   const [isOpen, setIsOpen] = useState(false)
   const handleClick = () => {
     setIsOpen(false)
