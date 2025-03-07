@@ -1,6 +1,7 @@
 'use client'
 import { useGetProducts } from "app/hooks/useGetProducts";
 import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 
 const ProductCard = ({ ...props }) => {
   const { replace } = useRouter()
@@ -22,7 +23,7 @@ const ProductCard = ({ ...props }) => {
     </article>
   )
 }
-export const MainContent = () => {
+const Products = () => {
   const params = useSearchParams();
   const search = params.get("search") || ""
   const genre = params.get("genre") || "all";
@@ -30,14 +31,22 @@ export const MainContent = () => {
   const size = params.get("size") || "all";
   const order = params.get("order") || "default"
   const { data } = useGetProducts({ genre, category, size, order, search })
-
   return (
-    <div className="grid min-[350px]:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+    <>
       {
         data?.map((product) => {
           return <ProductCard key={product.id} {...product} />
         })
       }
+    </>
+  )
+}
+export const MainContent = () => {
+  return (
+    <div className="grid min-[350px]:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+      <Suspense>
+        <Products />
+      </Suspense>
     </div>
   )
 }

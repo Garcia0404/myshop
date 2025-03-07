@@ -1,13 +1,13 @@
 import { NextResponse } from "next/server";
 import client from "app/lib/db";
-import { checkUserSchema } from "app/lib/schemas/auth";
+import { registerSchema } from "app/lib/schemas/auth";
 
 export async function POST(request: Request) {
   try {
     const body = await request.json();
 
     // Validar los datos con Zod
-    const validation = checkUserSchema.safeParse(body);
+    const validation = registerSchema.safeParse(body);
     if (!validation.success) {
       return NextResponse.json(
         { message: "Datos inválidos", errors: validation.error.errors },
@@ -15,7 +15,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const { password, username } = validation.data;
+    const { password, username, email } = validation.data;
     // Verificar si el usuario existe en la base de datos
     let query = "";
     let params: string[] = [];
@@ -25,6 +25,9 @@ export async function POST(request: Request) {
     } else if (username) {
       query = "SELECT * FROM users WHERE username = ?";
       params = [username];
+    } else if (email) {
+      query = "SELECT * FROM users WHERE email = ?";
+      params = [email];
     }
 
     const result = await client.execute({
@@ -45,7 +48,10 @@ export async function POST(request: Request) {
     }
   } catch (error) {
     return NextResponse.json(
-      { message: "Error al verificar el usuario", error: (error as Error).message },
+      {
+        message: "Error al verificar el usuario",
+        error: (error as Error).message,
+      },
       { status: 500 }
     );
   }

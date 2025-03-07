@@ -1,7 +1,6 @@
 // /products
 import { MainContent } from "app/components/MainContent";
 import { Select } from "app/components/ui/Select";
-import { Suspense } from "react";
 const FilterProducts = () => {
   const options = [{
     label: "Ordenar por",
@@ -31,9 +30,7 @@ export default function ProductsPage() {
         </div>
         <FilterProducts />
       </div>
-      <Suspense>
-        <MainContent />
-      </Suspense>
+      <MainContent />
     </>
 
   );
