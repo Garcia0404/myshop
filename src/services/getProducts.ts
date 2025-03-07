@@ -31,13 +31,8 @@ export const searchWords = (list: Product[], str: string) => {
   // 3. Filtrar productos que tengan al menos una coincidencia
   const filteredProducts = productsWithMatches.filter(
     (product) => product.matchCount === searchWords.length
-  );
+  )
 
-  // 4. Ordenar por el número de coincidencias
-  const sortedProducts = filteredProducts.sort(
-    (a, b) => b.matchCount - a.matchCount
-  );
-
-  // 5. Retornar los productos ordenados y eliminar el campo matchCount
-  return sortedProducts.map(({ matchCount, ...product }) => product);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  return filteredProducts.map(({ matchCount, ...product }) => product);
 };

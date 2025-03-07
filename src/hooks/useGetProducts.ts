@@ -14,12 +14,8 @@ export const useGetProducts = ({
   order: string;
   search: string;
 }) => {
-  const url = search
-    ? `/api/products?search=${search}`
-    : `/api/products?genre=${genre}&category=${category}&size=${size}&order=${order}`;
-
+  const url = `/api/products?search=${search}&genre=${genre}&category=${category}&size=${size}&order=${order}`;
   const { data, error, isLoading } = useSWR<Product[]>(url, fetchData);
-
   return {
     data,
     error,

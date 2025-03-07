@@ -5,15 +5,18 @@ import { searchWords } from "app/services/getProducts";
 export async function GET(req: Request) {
   const url = new URL(req.url);
   const search = url.searchParams.get("search");
-  // Agregar persistencia de order y separar en services
+  const order = url.searchParams.get("order") as Order;
   if (search) {
     const searchProduct = searchWords(products, search);
+    if (order) {
+      const orderedData = orderBy(searchProduct, order);
+      return NextResponse.json(orderedData);
+    }
     return NextResponse.json(searchProduct);
   }
   const genre = url.searchParams.get("genre");
   const category = url.searchParams.get("category");
   const size = url.searchParams.get("size");
-  const order = url.searchParams.get("order") as Order;
   const filteredProducts = products.filter((product) => {
     return (
       (genre === "all" || !genre || product.genero === genre) &&
