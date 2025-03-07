@@ -24,11 +24,12 @@ const ProductCard = ({ ...props }) => {
 }
 export const MainContent = () => {
   const params = useSearchParams();
+  const search = params.get("search") || ""
   const genre = params.get("genre") || "all";
   const category = params.get("category") || "all";
   const size = params.get("size") || "all";
   const order = params.get("order") || "default"
-  const { data } = useGetProducts({ genre, category, size, order })
+  const { data } = useGetProducts({ genre, category, size, order, search })
 
   return (
     <div className="grid min-[350px]:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">

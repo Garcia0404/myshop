@@ -3,6 +3,14 @@ import products from "../../../../data/products.json";
 import { Order, orderBy } from "app/services/orderBy";
 export async function GET(req: Request) {
   const url = new URL(req.url);
+  const search = url.searchParams.get("search");
+  // Agregar persistencia de order y separar en services
+  if (search) {
+    const searchProduct = products.filter((product) =>
+      product.nombre.toLowerCase().includes(search.toLowerCase())
+    );
+    return NextResponse.json(searchProduct);
+  }
   const genre = url.searchParams.get("genre");
   const category = url.searchParams.get("category");
   const size = url.searchParams.get("size");
@@ -20,5 +28,6 @@ export async function GET(req: Request) {
   }
   if (filteredProducts.length == 0)
     return NextResponse.json({ message: "404 Not found" }, { status: 404 });
+
   return NextResponse.json(filteredProducts);
 }
