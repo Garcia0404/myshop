@@ -3,6 +3,7 @@ import { CartItemCard } from "app/components/ShoppingCart"
 import Separator from "app/components/ui/Separator"
 import { useCartStore } from "app/hooks/useCartStore"
 import { motion } from "motion/react"
+import PaymentButton from "./PaymentButton"
 const CartList = () => {
   const { cart, removeFromCart, updateQuantity } = useCartStore()
   return (
@@ -43,7 +44,7 @@ export const PurchaseSummary = () => {
             <span>Total</span>
             <span className="text-red-600 font-bold">S/ {getTotal()}</span>
           </div>
-          <button className="w-full text-center bg-red-600 hover:bg-red-500 cursor-pointer py-2 rounded-md mt-6">Comprar</button>
+          <PaymentButton />
         </div>
       }
     </div>
