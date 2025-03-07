@@ -47,7 +47,7 @@ const FilterList = () => {
 export const Sidebar = () => {
 
   return (
-    <aside className="w-60 flex-col gap-4 lg:flex hidden">
+    <aside className="w-52 flex-col gap-4 lg:flex hidden">
       <h2 className="text-xl mt-2">Filtrar por</h2>
       <Suspense>
         <FilterList />
