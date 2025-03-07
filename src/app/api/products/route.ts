@@ -1,14 +1,13 @@
 import { NextResponse } from "next/server";
 import products from "../../../../data/products.json";
 import { Order, orderBy } from "app/services/orderBy";
+import { searchWords } from "app/services/getProducts";
 export async function GET(req: Request) {
   const url = new URL(req.url);
   const search = url.searchParams.get("search");
   // Agregar persistencia de order y separar en services
   if (search) {
-    const searchProduct = products.filter((product) =>
-      product.nombre.toLowerCase().includes(search.toLowerCase())
-    );
+    const searchProduct = searchWords(products, search);
     return NextResponse.json(searchProduct);
   }
   const genre = url.searchParams.get("genre");
