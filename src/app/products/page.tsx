@@ -11,14 +11,12 @@ const FilterProducts = () => {
     value: "asc"
   }, { label: "Mayor precio", value: "desc" }, { label: "Mejor descuento", value: "bestDiscount" }, { label: "Lo más nuevo", value: "recent" }]
   return (
-    <Suspense>
-      <Select options={options} className="flex items-center gap-4 border py-2 px-4 hover:bg-white hover:text-black transition-colors cursor-pointer">
-        <span>Ordenar por</span>
-        <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-          <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-        </svg>
-      </Select>
-    </Suspense>
+    <Select options={options} className="flex items-center gap-4 border py-2 px-4 hover:bg-white hover:text-black transition-colors cursor-pointer">
+      <span>Ordenar por</span>
+      <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+        <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+      </svg>
+    </Select>
   )
 }
 export default function ProductsPage() {
