@@ -61,7 +61,7 @@ export const Header = () => {
     setOpenCart(false)
   }
   return (
-    <Suspense>
+    <>
       <header className="sticky top-0 left-0 z-30 bg-[rgba(0,0,0,0.7)] backdrop-blur-xl flex items-center justify-between px-4 py-2 border-b-[1px] border-white/30">
         <div className="flex-grow basis-0">
           <Link href={"/products"} className="flex items-center gap-2 cursor-pointer w-min">
@@ -81,9 +81,7 @@ export const Header = () => {
           </button>
         </div>
       </header>
-      <Suspense>
-        <ShoppingCart callback={handleClick} openCart={openCart} />
-      </Suspense>
-    </Suspense>
+      <ShoppingCart callback={handleClick} openCart={openCart} />
+    </>
   )
 }

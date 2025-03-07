@@ -1,7 +1,9 @@
 import { create } from "zustand";
+
 interface SelectedProduct extends Product {
   talla: string;
 }
+
 export interface CartProduct extends SelectedProduct {
   quantity: number;
 }
@@ -13,7 +15,9 @@ interface CartState {
   updateQuantity: (productId: string, talla: string, quantity: number) => void;
   clearCart: () => void;
   getTotal: () => number;
+  getSubtotal: () => number;
 }
+
 export const useCartStore = create<CartState>((set) => ({
   cart: [],
   addToCart: (product: SelectedProduct) =>
@@ -51,6 +55,7 @@ export const useCartStore = create<CartState>((set) => ({
     })),
 
   clearCart: () => set({ cart: [] }),
+
   getTotal: (): number => {
     const total = useCartStore.getState().cart.reduce((sum, item) => {
       const discountedPrice = item.precio * (1 - item.descuento / 100);
@@ -58,4 +63,11 @@ export const useCartStore = create<CartState>((set) => ({
     }, 0);
     return parseFloat(total.toFixed(2));
   },
+
+  getSubtotal: (): number => {
+    const subtotal = useCartStore.getState().cart.reduce((sum, item) => {
+      return sum + item.precio * item.quantity;
+    }, 0);
+    return parseFloat(subtotal.toFixed(2));
+  }
 }));
