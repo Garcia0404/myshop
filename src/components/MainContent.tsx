@@ -11,7 +11,7 @@ const ProductCard = ({ ...props }) => {
     <article className="flex flex-col">
       <div className="relative cursor-pointer flex-1" onClick={() => replace(`/products/${id}`)}>
         <div style={{ display: descuento == 0 ? "none" : "block" }} className="absolute top-0 left-0 m-1 px-3 py-1 bg-black text-xs">-{descuento}%</div>
-        <img loading="lazy" className="object-cover h-full" alt={descripcion} width={371.6} height={423.18} src={imagenes[0]} />
+        <img loading="lazy" className="object-cover h-full w-full" alt={descripcion} width={195.2} height={292.8} src={imagenes[0]} />
       </div>
       <div className="flex flex-col mt-2">
         <h3 className="leading-5 overflow-hidden" style={{ display: "-webkit-box", WebkitLineClamp: "1", WebkitBoxOrient: "vertical" }}>{nombre}</h3>
@@ -43,7 +43,7 @@ const Products = () => {
 }
 export const MainContent = () => {
   return (
-    <div className="grid min-[350px]:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+    <div className="grid min-[350px]:grid-cols-2 min-[450px]:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4">
       <Suspense>
         <Products />
       </Suspense>
