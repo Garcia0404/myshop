@@ -36,12 +36,12 @@ export const CartItemCard = ({ product, updateQuantity, removeFromCart }: { prod
           <span>S/ {discountedPrice}</span>
         </div>
         <div className="flex gap-4 items-center flex-1">
-          <div><svg onClick={() => { if (quantity > 0) updateQuantity(id, talla, quantity - 1) }} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8 fill-white stroke-black cursor-pointer transition-colors">
+          <div><svg onClick={() => { if (quantity > 0) updateQuantity(id, talla, quantity - 1) }} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8 fill-white/50 hover:fill-white stroke-zinc-900 cursor-pointer transition-colors">
             <path strokeLinecap="round" strokeLinejoin="round" d="M15 12H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
           </svg>
           </div>
           <div className="text-xl w-6 text-center">{quantity}</div>
-          <div><svg onClick={() => updateQuantity(id, talla, quantity + 1)} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8 fill-white stroke-black cursor-pointer transition-colors">
+          <div><svg onClick={() => updateQuantity(id, talla, quantity + 1)} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8 fill-white/50 hover:fill-white stroke-zinc-900 cursor-pointer transition-colors">
             <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
           </svg>
           </div>

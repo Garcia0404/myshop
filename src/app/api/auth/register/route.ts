@@ -14,7 +14,7 @@ export async function POST(request: Request) {
   const { username, email, password } = validation.data;
   // Si pasa la validación, verificar si ya existe el usuario
   try {
-    const userExists = await checkIfUserExists(username, email); // Función que verifica si el usuario existe
+    const userExists = await checkIfUserExists(username); // Función que verifica si el usuario existe
     if (userExists) {
       return NextResponse.json(
         { message: "El usuario ya existe" },

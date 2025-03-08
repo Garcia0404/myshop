@@ -11,6 +11,8 @@
   "dependencies": {
     "@libsql/client": "^0.14.0",
     "bcrypt": "^5.1.1",
+    "cookie": "^1.0.2",
+    "jsonwebtoken": "^9.0.2",
     "mercadopago": "^2.3.0",
     "motion": "^12.4.10",
     "next": "15.2.0",
@@ -24,6 +26,7 @@
     "@eslint/eslintrc": "^3.3.0",
     "@tailwindcss/postcss": "^4.0.12",
     "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.9",
     "@types/node": "^20.17.23",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",

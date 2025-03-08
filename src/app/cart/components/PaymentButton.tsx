@@ -22,7 +22,7 @@ export default function PaymentButton() {
       });
 
       const { url } = await response.json();
-      
+
       window.location.href = url;
     } catch (error) {
       console.error(error);
@@ -33,7 +33,7 @@ export default function PaymentButton() {
   };
 
   return (
-    <button className="w-full text-center bg-red-600 hover:bg-red-500 cursor-pointer py-2 rounded-md mt-6" onClick={handlePayment} disabled={loading}>
+    <button className={`w-full text-center bg-red-600 hover:bg-red-500 ${loading ? 'cursor-wait' : 'cursor-pointer'} py-2 rounded-md mt-6`} onClick={handlePayment} disabled={loading}>
       {loading ? 'Procesando...' : 'Pagar con Mercado Pago'}
     </button>
   );
