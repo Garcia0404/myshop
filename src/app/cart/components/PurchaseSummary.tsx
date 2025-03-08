@@ -32,7 +32,7 @@ export const PurchaseSummary = () => {
     <div className="flex sm:flex-row flex-col gap-4 lg:gap-10 mx-auto mt-6 md:mt-20">
       <CartList />
       {
-        cart.length !== 0 && <div className=" sm:bg-zinc-900 w-full sm:w-80 p-4 rounded-md h-min mx-auto mb-6 sm:me-2">
+        cart.length !== 0 && <motion.div layout className=" sm:bg-zinc-900 w-full sm:w-80 p-4 rounded-md h-min mx-auto mb-6 sm:me-2">
           <Separator />
           <h2 className="text-2xl mt-2 mb-6 font-bold text-center">Resumen de compra</h2>
           <div className="flex justify-between">
@@ -45,7 +45,7 @@ export const PurchaseSummary = () => {
             <span className="text-red-600 font-bold">S/ {getTotal()}</span>
           </div>
           <PaymentButton />
-        </div>
+        </motion.div>
       }
     </div>
   )
