@@ -1,14 +1,16 @@
 'use client'
+import { useCartStore } from 'app/hooks/useCartStore';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { Suspense, useEffect } from 'react'
 
 const Content = () => {
+  const clearCart = useCartStore((state) => state.clearCart)
   const searchParams = useSearchParams();
   useEffect(() => {
     const collectionStatus = searchParams.get('collection_status');
     if (collectionStatus === 'approved') {
-      // Limpiar el carrito y añadir a compras de la cuenta
+      clearCart()
       console.log('Pago exitoso:', Object.fromEntries(searchParams.entries()));
     }
   }, [searchParams]);

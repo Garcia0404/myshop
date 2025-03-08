@@ -1,5 +1,6 @@
+'use client'
 import { CartProduct, useCartStore } from "app/hooks/useCartStore"
-import { useRef } from "react"
+import { useEffect, useRef } from "react"
 import { AnimatePresence, motion } from "motion/react"
 import Separator from "./ui/Separator"
 import { useClickOutside } from "app/hooks/useClickOutside"
@@ -31,7 +32,7 @@ export const CartItemCard = ({ product, updateQuantity, removeFromCart }: { prod
       <div className="flex flex-col flex-1">
         <span className="text-lg font-extralight overflow-hidden" style={{ display: "-webkit-box", WebkitLineClamp: "2", WebkitBoxOrient: "vertical" }}>{nombre} <span className="text-white/40">{`(${talla})`}</span></span>
         <div className="flex gap-2">
-          <s style={{display:descuento == 0 ? "none":"block"}} className="text-[#ecedee80]">S/ {precio}</s>
+          <s style={{ display: descuento == 0 ? "none" : "block" }} className="text-[#ecedee80]">S/ {precio}</s>
           <span>S/ {discountedPrice}</span>
         </div>
         <div className="flex gap-4 items-center flex-1">
@@ -69,6 +70,9 @@ export const ShoppingCart = ({ callback, openCart }: { callback: () => void, ope
   useClickOutside(ref, () => {
     if (openCart) callback()
   })
+  useEffect(() => {
+    localStorage.setItem('cart', JSON.stringify(cart))
+  }, [cart])
   return (
     <AnimatePresence>
       {openCart && (
@@ -92,7 +96,7 @@ export const ShoppingCart = ({ callback, openCart }: { callback: () => void, ope
                       <CartItemCard removeFromCart={removeFromCart} updateQuantity={updateQuantity} product={item} />
                     </motion.li>
                   )) : (
-                    <motion.div layout initial={{opacity:0}} transition={{delay:0.3}} animate={{opacity:1}} className="justify-center flex-1 flex items-center text-xl text-white/30 mb-10">El carrito está vacío</motion.div>
+                    <motion.div layout initial={{ opacity: 0 }} transition={{ delay: 0.3 }} animate={{ opacity: 1 }} className="justify-center flex-1 flex items-center text-xl text-white/30 mb-10">El carrito está vacío</motion.div>
                   )
                 }
               </AnimatePresence>

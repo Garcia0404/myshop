@@ -1,4 +1,4 @@
-import { create } from "zustand";
+import { create } from 'zustand';
 
 interface SelectedProduct extends Product {
   talla: string;
@@ -18,8 +18,16 @@ interface CartState {
   getSubtotal: () => number;
 }
 
+const getInitialCart = () => {
+  if (typeof window !== 'undefined') {
+    const storedCart = localStorage.getItem('cart');
+    return storedCart ? JSON.parse(storedCart) : [];
+  }
+  return [];
+};
+
 export const useCartStore = create<CartState>((set) => ({
-  cart: [],
+  cart: getInitialCart(),
   addToCart: (product: SelectedProduct) =>
     set((state) => {
       const existingProduct = state.cart.find(
