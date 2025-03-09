@@ -1,9 +1,7 @@
 import { NextResponse } from "next/server";
 import jwt from "jsonwebtoken";
-
 const SECRET_KEY = process.env.SECRET_KEY_JWT || "";
-
-export async function middleware(req: Request) {
+export async function GET(req: Request) {
   const token = req.headers
     .get("cookie")
     ?.split("; ")
@@ -17,15 +15,9 @@ export async function middleware(req: Request) {
     );
   }
   try {
-    const decoded = jwt.verify(token, SECRET_KEY) as { username: string };
-    const response = NextResponse.next();
-    response.headers.append("username", decoded.username);
-    return response;
+    jwt.verify(token, SECRET_KEY) as { username: string };
+    return NextResponse.json({ message: "Token válido" });
   } catch {
     return NextResponse.json({ message: "Token inválido" }, { status: 401 });
   }
 }
-
-export const config = {
-  matcher: ["/api/user/:path*"], // Rutas donde se aplicará el middleware
-};

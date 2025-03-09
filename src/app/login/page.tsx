@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
-import React, { FormEvent, useState } from 'react'
+import React, { FormEvent, useEffect, useState } from 'react'
 import Separator from 'app/components/ui/Separator'
 import { BagSvg } from 'app/components/ui/BagSvg'
 import { Loader } from 'app/components/ui/Loader'
@@ -12,6 +12,13 @@ export default function LoginPage() {
     username: '',
     password: ''
   })
+  useEffect(() => {
+    const checkSession = async () => {
+      const response = await fetch("/api/validate-token")
+      if (response.ok) router.push('/products')
+    };
+    checkSession();
+  }, [router])
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     if (!formData.username || !formData.password) {
@@ -25,7 +32,7 @@ export default function LoginPage() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
       })
-      if (!response.ok) alert("Error al iniciar sesión");
+      if (!response.ok) alert("Datos incorrectos");
       if (response.ok) {
         const data = await response.json();
         router.push('/products');

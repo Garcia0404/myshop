@@ -1,3 +1,4 @@
+// api/login
 import { checkUserSchema } from "app/lib/schemas/auth";
 import { loginUser } from "app/services/authService";
 import { NextResponse } from "next/server";
@@ -29,10 +30,12 @@ export async function POST(req: Request) {
       maxAge: 3600, // 1 hora
       path: "/", // Permite el uso de la cookie en todas las rutas
     });
-    return NextResponse.json(
-      { message: "Inicio de sesión exitoso", data: validation.data },
+    const response = NextResponse.json(
+      { message: "Inicio de sesión exitoso" },
       { status: 200 }
-    ).headers.set("Set-Cookie", cookie);
+    );
+    response.headers.append("Set-Cookie", cookie);
+    return response;
   } catch (error) {
     return NextResponse.json(
       { message: "Error al iniciar sesión", error: (error as Error).message },
