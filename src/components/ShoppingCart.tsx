@@ -56,8 +56,13 @@ export const CartItemCard = ({ product, updateQuantity, removeFromCart }: { prod
 }
 const BuyButton = () => {
   const { replace } = useRouter()
+  const checkSession = async () => {
+    const response = await fetch("/api/validate-token")
+    if (response.ok) replace('/cart')
+    if(!response.ok) replace('/login')
+  };
   return (
-    <button onClick={() => replace('/cart')} className="w-full py-2 my-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-white transition-colors cursor-pointer">Comprar</button>
+    <button onClick={checkSession} className="w-full focus:bg-blue-500 py-2 my-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-white transition-colors cursor-pointer">Comprar</button>
   )
 }
 export const ShoppingCart = ({ callback, openCart }: { callback: () => void, openCart: boolean }) => {
