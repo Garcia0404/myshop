@@ -3,6 +3,7 @@ import { BagSvg } from "./ui/BagSvg"
 import { FormEvent, RefObject, useState } from "react"
 import { Loader } from "./ui/Loader"
 import { CloseSvg } from "./ui/CloseSvg"
+import { GoogleSvg } from "./ui/GoogleSvg"
 export const Login = ({ ref, callback }: { ref: RefObject<HTMLDivElement>, callback: () => void }) => {
   const [isLoaded, setIsLoaded] = useState(false)
   const [formData, setFormData] = useState({
@@ -30,9 +31,9 @@ export const Login = ({ ref, callback }: { ref: RefObject<HTMLDivElement>, callb
     } finally { setIsLoaded(false) }
   }
   return (
-    <motion.div animate={{ opacity: 1 }} 
-    initial={{ opacity: 0 }} exit={{ opacity: 0 }} 
-    className='min-h-screen bg-[rgba(0,0,0,0.8)] fixed top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center z-50'>
+    <motion.div animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }} exit={{ opacity: 0 }}
+      className='min-h-screen bg-[rgba(0,0,0,0.8)] fixed top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center z-50'>
       <div className="flex w-full px-2 justify-center items-center">
         <div ref={ref} className='flex flex-col items-center max-sm:p-3 w-full min-[400px]:w-sm mb-10 bg-zinc-900 p-4 rounded-lg'>
           <div onClick={callback} className="flex justify-end cursor-pointer w-min ms-auto"><CloseSvg /></div>
@@ -45,7 +46,7 @@ export const Login = ({ ref, callback }: { ref: RefObject<HTMLDivElement>, callb
                 placeholder='Usuario'
                 value={formData.username}
                 onChange={(e) => setFormData({ ...formData, username: e.target.value })}
-                className='p-2 border border-gray-300 rounded-md w-full'
+                className='p-2 border border-gray-300/30 rounded-md w-full'
               />
             </label>
             <label>
@@ -54,7 +55,7 @@ export const Login = ({ ref, callback }: { ref: RefObject<HTMLDivElement>, callb
                 placeholder='Contraseña'
                 value={formData.password}
                 onChange={(e) => setFormData({ ...formData, password: e.target.value })}
-                className='p-2 border border-gray-300 rounded-md w-full'
+                className='p-2 border border-gray-300/30 rounded-md w-full'
               />
             </label>
             <button
@@ -66,6 +67,7 @@ export const Login = ({ ref, callback }: { ref: RefObject<HTMLDivElement>, callb
               }
             </button>
           </form>
+          <button className="w-full flex bg-white mt-2 rounded-md py-1.5 px-3 cursor-pointer relative"><GoogleSvg /><span className="absolute right-0 left-0 top-0 bottom-0 grid place-content-center font-bold text-zinc-900">Continuar con google</span></button>
         </div>
       </div>
     </motion.div>

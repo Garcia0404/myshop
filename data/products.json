@@ -9,7 +9,10 @@
     "genero": "Hombre",
     "tallas": ["S", "M", "L"],
     "colores": ["blanco", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url2"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740",
+      "url2"
+    ],
     "stock": 100
   },
   {
@@ -22,7 +25,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["blanco", "rosa"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url4"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ropa-pelo-ciudad-urbana_1157-3199.jpg?t=st=1741695353~exp=1741698953~hmac=d72d846b363b5ef13ceef1cbe83f0a0e1497e89e0ae9cdaa9ded48b602fa6820&w=740",
+      "url4"
+    ],
     "stock": 80
   },
   {
@@ -35,7 +41,10 @@
     "genero": "Niño",
     "tallas": ["4", "6", "8"],
     "colores": ["azul", "rojo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url6"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-asiatica-haciendo-signo-corazon-manos_23-2149396562.jpg?t=st=1741695698~exp=1741699298~hmac=a05871919c420ff492704ac124bcb6531fb159dc64b62b537275e8aa37440693&w=740",
+      "url6"
+    ],
     "stock": 120
   },
   {
@@ -48,7 +57,10 @@
     "genero": "Hombre",
     "tallas": ["30", "32", "34"],
     "colores": ["azul", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url8"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/zapatos-hombre-moderno-ciudad_23-2147961438.jpg?t=st=1741694555~exp=1741698155~hmac=b603890eba7405689febdb88daed57c6859e206096498b2f7f54a07b2a683dcc&w=740",
+      "url8"
+    ],
     "stock": 60
   },
   {
@@ -61,7 +73,10 @@
     "genero": "Mujer",
     "tallas": ["28", "30", "32"],
     "colores": ["azul", "gris"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url10"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/dril-algodon_1303-4488.jpg?t=st=1741695418~exp=1741699018~hmac=4cd1885470be26b3ff27fe73c76228c4985b1ac4a6b8de54af5e6d838aaa46e5&w=740",
+      "url10"
+    ],
     "stock": 70
   },
   {
@@ -74,7 +89,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["negro", "verde"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url12"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/pantalones-sueltos-beige-camiseta-blanca-closeup-moda-femenina_53876-102147.jpg?t=st=1741695750~exp=1741699350~hmac=dfc669041ecc6bd6ed50f3924afe02c50df8a476a15d0e6be25ac7d1d8cfd3d0&w=740",
+      "url12"
+    ],
     "stock": 90
   },
   {
@@ -87,7 +105,10 @@
     "genero": "Hombre",
     "tallas": ["S", "M", "L"],
     "colores": ["gris", "azul marino"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url14"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/joven-posar-al-aire-libre_23-2148883567.jpg?t=st=1741694812~exp=1741698412~hmac=45bc34445bf1487d9c6969bbc04c072667714a6d7f1ffc4e2578ec0bdea1dfc5&w=740",
+      "url14"
+    ],
     "stock": 50
   },
   {
@@ -100,7 +121,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["rosa", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url16"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-linda-mirada-seductora_23-2147633746.jpg?t=st=1741695470~exp=1741699070~hmac=f04a20750ca6fee63b5c5012686a9f9b63047f77ba596adc6f65fe79092d638f&w=740",
+      "url16"
+    ],
     "stock": 55
   },
   {
@@ -113,7 +137,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["rojo", "amarillo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url18"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ninos-pequenos-que-pasan-tiempo-juntos_23-2148843636.jpg?t=st=1741695890~exp=1741699490~hmac=244ed35c27f89f95c23f533e42d31af3a47cc8d12f62290153351519697c6b75&w=740",
+      "url18"
+    ],
     "stock": 75
   },
   {
@@ -126,7 +153,10 @@
     "genero": "Hombre",
     "tallas": ["40", "42", "44"],
     "colores": ["blanco", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740","url20"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/pie-masculino-zapatos-cuero-marron-jeans_1150-5998.jpg?t=st=1741694866~exp=1741698466~hmac=75d0cdd9fdeee61da85cba992a6664475a7a4d0aea87cf4cf4b0fd0edb8777e0&w=740",
+      "url20"
+    ],
     "stock": 40
   },
   {
@@ -139,7 +169,10 @@
     "genero": "Mujer",
     "tallas": ["36", "38", "40"],
     "colores": ["blanco", "rosa"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740","url22"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/piernas-mujer-pantalon-rosa-arriba-aire_53876-88431.jpg?t=st=1741695546~exp=1741699146~hmac=08251ef56ebe016d3931957edffe12ed624a73de6c2c60644fa4bc3d9c4b7c42&w=740",
+      "url22"
+    ],
     "stock": 45
   },
   {
@@ -152,7 +185,10 @@
     "genero": "Niño",
     "tallas": ["28", "30", "32"],
     "colores": ["azul", "verde"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url24"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-zapatillas-blancas_53876-97836.jpg?t=st=1741695829~exp=1741699429~hmac=69bfb02ba90fe52d0a0edac5386f3fc67f42bb6316c974eff8718c8a535b66f5&w=740",
+      "url24"
+    ],
     "stock": 60
   },
   {
@@ -165,7 +201,10 @@
     "genero": "Hombre",
     "tallas": ["M", "L", "XL"],
     "colores": ["negro", "marrón"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url26"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/hombre-traje_1303-5851.jpg?t=st=1741695022~exp=1741698622~hmac=40a3a5a169f9c2aaec776980335cd3d76c04f6f14a3d743993b379a981f7f051&w=740",
+      "url26"
+    ],
     "stock": 30
   },
   {
@@ -178,7 +217,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["negro", "azul marino"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url28"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740",
+      "url28"
+    ],
     "stock": 35
   },
   {
@@ -191,7 +233,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["amarillo", "rojo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url30"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740",
+      "url30"
+    ],
     "stock": 50
   },
   {
@@ -204,7 +249,10 @@
     "genero": "Hombre",
     "tallas": ["Única"],
     "colores": ["negro", "azul"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url32"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/hombre-estilo-gorro-amarillo_23-2147724841.jpg?t=st=1741695245~exp=1741698845~hmac=2dc701edbd6307d0eee853cabf5f34afd6c7313fdc2c2507ba0d74c39ba76ccf&w=740",
+      "url32"
+    ],
     "stock": 80
   },
   {
@@ -217,7 +265,10 @@
     "genero": "Mujer",
     "tallas": ["Única"],
     "colores": ["gris", "rosa"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url34"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/retrato-mujer-ropa-invierno_23-2148306369.jpg?t=st=1741695603~exp=1741699203~hmac=c56e2032c85936100153711d82b0f5d483bba1ac33a1963d430670be5ee28f2b&w=740",
+      "url34"
+    ],
     "stock": 60
   },
   {
@@ -230,7 +281,10 @@
     "genero": "Niño",
     "tallas": ["Única"],
     "colores": ["azul", "rojo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url36"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/linda-chica-mochila-amarilla_23-2148764016.jpg?t=st=1741695977~exp=1741699577~hmac=c602722899260affe1b3cb32e128cd811afa368ec7e394a5de2ed1a043219bf7&w=740",
+      "url36"
+    ],
     "stock": 70
   },
   {
@@ -243,7 +297,10 @@
     "genero": "Hombre",
     "tallas": ["S", "M", "L"],
     "colores": ["blanco", "gris"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url38"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740",
+      "url38"
+    ],
     "stock": 85
   },
   {
@@ -256,7 +313,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["negro", "rosa"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url40"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ropa-pelo-ciudad-urbana_1157-3199.jpg?t=st=1741695353~exp=1741698953~hmac=d72d846b363b5ef13ceef1cbe83f0a0e1497e89e0ae9cdaa9ded48b602fa6820&w=740",
+      "url40"
+    ],
     "stock": 95
   },
   {
@@ -269,7 +329,10 @@
     "genero": "Niño",
     "tallas": ["4", "6", "8"],
     "colores": ["azul", "blanco"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url42"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-asiatica-haciendo-signo-corazon-manos_23-2149396562.jpg?t=st=1741695698~exp=1741699298~hmac=a05871919c420ff492704ac124bcb6531fb159dc64b62b537275e8aa37440693&w=740",
+      "url42"
+    ],
     "stock": 110
   },
   {
@@ -282,7 +345,10 @@
     "genero": "Hombre",
     "tallas": ["30", "32", "34"],
     "colores": ["beige", "azul"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url44"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/zapatos-hombre-moderno-ciudad_23-2147961438.jpg?t=st=1741694555~exp=1741698155~hmac=b603890eba7405689febdb88daed57c6859e206096498b2f7f54a07b2a683dcc&w=740",
+      "url44"
+    ],
     "stock": 65
   },
   {
@@ -295,7 +361,10 @@
     "genero": "Mujer",
     "tallas": ["28", "30", "32"],
     "colores": ["negro", "gris"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url46"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/dril-algodon_1303-4488.jpg?t=st=1741695418~exp=1741699018~hmac=4cd1885470be26b3ff27fe73c76228c4985b1ac4a6b8de54af5e6d838aaa46e5&w=740",
+      "url46"
+    ],
     "stock": 75
   },
   {
@@ -308,7 +377,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["verde", "azul"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url48"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/pantalones-sueltos-beige-camiseta-blanca-closeup-moda-femenina_53876-102147.jpg?t=st=1741695750~exp=1741699350~hmac=dfc669041ecc6bd6ed50f3924afe02c50df8a476a15d0e6be25ac7d1d8cfd3d0&w=740",
+      "url48"
+    ],
     "stock": 100
   },
   {
@@ -321,7 +393,10 @@
     "genero": "Hombre",
     "tallas": ["S", "M", "L"],
     "colores": ["negro", "gris"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url50"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/joven-posar-al-aire-libre_23-2148883567.jpg?t=st=1741694812~exp=1741698412~hmac=45bc34445bf1487d9c6969bbc04c072667714a6d7f1ffc4e2578ec0bdea1dfc5&w=740",
+      "url50"
+    ],
     "stock": 60
   },
   {
@@ -334,7 +409,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["rosa", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url52"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-linda-mirada-seductora_23-2147633746.jpg?t=st=1741695470~exp=1741699070~hmac=f04a20750ca6fee63b5c5012686a9f9b63047f77ba596adc6f65fe79092d638f&w=740",
+      "url52"
+    ],
     "stock": 55
   },
   {
@@ -347,7 +425,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["rojo", "amarillo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url54"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ninos-pequenos-que-pasan-tiempo-juntos_23-2148843636.jpg?t=st=1741695890~exp=1741699490~hmac=244ed35c27f89f95c23f533e42d31af3a47cc8d12f62290153351519697c6b75&w=740",
+      "url54"
+    ],
     "stock": 80
   },
   {
@@ -360,7 +441,10 @@
     "genero": "Hombre",
     "tallas": ["40", "42", "44"],
     "colores": ["blanco", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url56"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/pie-masculino-zapatos-cuero-marron-jeans_1150-5998.jpg?t=st=1741694866~exp=1741698466~hmac=75d0cdd9fdeee61da85cba992a6664475a7a4d0aea87cf4cf4b0fd0edb8777e0&w=740",
+      "url56"
+    ],
     "stock": 50
   },
   {
@@ -373,7 +457,10 @@
     "genero": "Mujer",
     "tallas": ["36", "38", "40"],
     "colores": ["blanco", "rosa"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url58"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/piernas-mujer-pantalon-rosa-arriba-aire_53876-88431.jpg?t=st=1741695546~exp=1741699146~hmac=08251ef56ebe016d3931957edffe12ed624a73de6c2c60644fa4bc3d9c4b7c42&w=740",
+      "url58"
+    ],
     "stock": 45
   },
   {
@@ -386,7 +473,10 @@
     "genero": "Niño",
     "tallas": ["28", "30", "32"],
     "colores": ["azul", "verde"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url60"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-zapatillas-blancas_53876-97836.jpg?t=st=1741695829~exp=1741699429~hmac=69bfb02ba90fe52d0a0edac5386f3fc67f42bb6316c974eff8718c8a535b66f5&w=740",
+      "url60"
+    ],
     "stock": 70
   },
   {
@@ -399,7 +489,10 @@
     "genero": "Hombre",
     "tallas": ["M", "L", "XL"],
     "colores": ["azul", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url62"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/hombre-traje_1303-5851.jpg?t=st=1741695022~exp=1741698622~hmac=40a3a5a169f9c2aaec776980335cd3d76c04f6f14a3d743993b379a981f7f051&w=740",
+      "url62"
+    ],
     "stock": 40
   },
   {
@@ -412,7 +505,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["negro", "azul marino"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url64"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740",
+      "url64"
+    ],
     "stock": 35
   },
   {
@@ -425,7 +521,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["amarillo", "rojo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url66"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740",
+      "url66"
+    ],
     "stock": 60
   },
   {
@@ -438,7 +537,10 @@
     "genero": "Hombre",
     "tallas": ["Única"],
     "colores": ["negro", "gris"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url68"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/hombre-estilo-gorro-amarillo_23-2147724841.jpg?t=st=1741695245~exp=1741698845~hmac=2dc701edbd6307d0eee853cabf5f34afd6c7313fdc2c2507ba0d74c39ba76ccf&w=740",
+      "url68"
+    ],
     "stock": 90
   },
   {
@@ -451,7 +553,10 @@
     "genero": "Mujer",
     "tallas": ["Única"],
     "colores": ["rosa", "gris"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url70"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/retrato-mujer-ropa-invierno_23-2148306369.jpg?t=st=1741695603~exp=1741699203~hmac=c56e2032c85936100153711d82b0f5d483bba1ac33a1963d430670be5ee28f2b&w=740",
+      "url70"
+    ],
     "stock": 65
   },
   {
@@ -464,7 +569,10 @@
     "genero": "Niño",
     "tallas": ["Única"],
     "colores": ["azul", "rojo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url72"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/linda-chica-mochila-amarilla_23-2148764016.jpg?t=st=1741695977~exp=1741699577~hmac=c602722899260affe1b3cb32e128cd811afa368ec7e394a5de2ed1a043219bf7&w=740",
+      "url72"
+    ],
     "stock": 55
   },
   {
@@ -477,7 +585,10 @@
     "genero": "Hombre",
     "tallas": ["S", "M", "L"],
     "colores": ["blanco", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url74"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740",
+      "url74"
+    ],
     "stock": 80
   },
   {
@@ -490,7 +601,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["negro", "rosa"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url76"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ropa-pelo-ciudad-urbana_1157-3199.jpg?t=st=1741695353~exp=1741698953~hmac=d72d846b363b5ef13ceef1cbe83f0a0e1497e89e0ae9cdaa9ded48b602fa6820&w=740",
+      "url76"
+    ],
     "stock": 95
   },
   {
@@ -503,7 +617,10 @@
     "genero": "Niño",
     "tallas": ["4", "6", "8"],
     "colores": ["azul", "rojo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url78"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-asiatica-haciendo-signo-corazon-manos_23-2149396562.jpg?t=st=1741695698~exp=1741699298~hmac=a05871919c420ff492704ac124bcb6531fb159dc64b62b537275e8aa37440693&w=740",
+      "url78"
+    ],
     "stock": 120
   },
   {
@@ -516,7 +633,10 @@
     "genero": "Hombre",
     "tallas": ["30", "32", "34"],
     "colores": ["negro", "gris"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url80"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/zapatos-hombre-moderno-ciudad_23-2147961438.jpg?t=st=1741694555~exp=1741698155~hmac=b603890eba7405689febdb88daed57c6859e206096498b2f7f54a07b2a683dcc&w=740",
+      "url80"
+    ],
     "stock": 50
   },
   {
@@ -529,7 +649,10 @@
     "genero": "Mujer",
     "tallas": ["28", "30", "32"],
     "colores": ["negro", "gris"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url82"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/dril-algodon_1303-4488.jpg?t=st=1741695418~exp=1741699018~hmac=4cd1885470be26b3ff27fe73c76228c4985b1ac4a6b8de54af5e6d838aaa46e5&w=740",
+      "url82"
+    ],
     "stock": 70
   },
   {
@@ -542,7 +665,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["azul", "verde"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url84"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/pantalones-sueltos-beige-camiseta-blanca-closeup-moda-femenina_53876-102147.jpg?t=st=1741695750~exp=1741699350~hmac=dfc669041ecc6bd6ed50f3924afe02c50df8a476a15d0e6be25ac7d1d8cfd3d0&w=740",
+      "url84"
+    ],
     "stock": 90
   },
   {
@@ -555,7 +681,10 @@
     "genero": "Hombre",
     "tallas": ["S", "M", "L"],
     "colores": ["gris", "azul marino"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url86"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/joven-posar-al-aire-libre_23-2148883567.jpg?t=st=1741694812~exp=1741698412~hmac=45bc34445bf1487d9c6969bbc04c072667714a6d7f1ffc4e2578ec0bdea1dfc5&w=740",
+      "url86"
+    ],
     "stock": 60
   },
   {
@@ -568,7 +697,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["rosa", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url88"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-linda-mirada-seductora_23-2147633746.jpg?t=st=1741695470~exp=1741699070~hmac=f04a20750ca6fee63b5c5012686a9f9b63047f77ba596adc6f65fe79092d638f&w=740",
+      "url88"
+    ],
     "stock": 55
   },
   {
@@ -581,7 +713,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["rojo", "amarillo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url90"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ninos-pequenos-que-pasan-tiempo-juntos_23-2148843636.jpg?t=st=1741695890~exp=1741699490~hmac=244ed35c27f89f95c23f533e42d31af3a47cc8d12f62290153351519697c6b75&w=740",
+      "url90"
+    ],
     "stock": 75
   },
   {
@@ -594,7 +729,10 @@
     "genero": "Hombre",
     "tallas": ["40", "42", "44"],
     "colores": ["blanco", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url92"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/pie-masculino-zapatos-cuero-marron-jeans_1150-5998.jpg?t=st=1741694866~exp=1741698466~hmac=75d0cdd9fdeee61da85cba992a6664475a7a4d0aea87cf4cf4b0fd0edb8777e0&w=740",
+      "url92"
+    ],
     "stock": 50
   },
   {
@@ -607,7 +745,10 @@
     "genero": "Mujer",
     "tallas": ["36", "38", "40"],
     "colores": ["blanco", "rosa"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url94"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/piernas-mujer-pantalon-rosa-arriba-aire_53876-88431.jpg?t=st=1741695546~exp=1741699146~hmac=08251ef56ebe016d3931957edffe12ed624a73de6c2c60644fa4bc3d9c4b7c42&w=740",
+      "url94"
+    ],
     "stock": 45
   },
   {
@@ -620,7 +761,10 @@
     "genero": "Niño",
     "tallas": ["28", "30", "32"],
     "colores": ["azul", "verde"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url96"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-zapatillas-blancas_53876-97836.jpg?t=st=1741695829~exp=1741699429~hmac=69bfb02ba90fe52d0a0edac5386f3fc67f42bb6316c974eff8718c8a535b66f5&w=740",
+      "url96"
+    ],
     "stock": 65
   },
   {
@@ -633,7 +777,10 @@
     "genero": "Hombre",
     "tallas": ["M", "L", "XL"],
     "colores": ["negro", "marrón"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url98"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/hombre-traje_1303-5851.jpg?t=st=1741695022~exp=1741698622~hmac=40a3a5a169f9c2aaec776980335cd3d76c04f6f14a3d743993b379a981f7f051&w=740",
+      "url98"
+    ],
     "stock": 40
   },
   {
@@ -646,7 +793,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["negro", "azul marino"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url100"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740",
+      "url100"
+    ],
     "stock": 35
   },
   {
@@ -659,7 +809,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["amarillo", "rojo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url102"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740",
+      "url102"
+    ],
     "stock": 60
   },
   {
@@ -672,7 +825,10 @@
     "genero": "Hombre",
     "tallas": ["Única"],
     "colores": ["negro", "azul"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url104"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/hombre-estilo-gorro-amarillo_23-2147724841.jpg?t=st=1741695245~exp=1741698845~hmac=2dc701edbd6307d0eee853cabf5f34afd6c7313fdc2c2507ba0d74c39ba76ccf&w=740",
+      "url104"
+    ],
     "stock": 80
   },
   {
@@ -685,7 +841,10 @@
     "genero": "Mujer",
     "tallas": ["Única"],
     "colores": ["gris", "rosa"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url106"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/retrato-mujer-ropa-invierno_23-2148306369.jpg?t=st=1741695603~exp=1741699203~hmac=c56e2032c85936100153711d82b0f5d483bba1ac33a1963d430670be5ee28f2b&w=740",
+      "url106"
+    ],
     "stock": 60
   },
   {
@@ -698,7 +857,10 @@
     "genero": "Niño",
     "tallas": ["Única"],
     "colores": ["azul", "rojo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url108"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/linda-chica-mochila-amarilla_23-2148764016.jpg?t=st=1741695977~exp=1741699577~hmac=c602722899260affe1b3cb32e128cd811afa368ec7e394a5de2ed1a043219bf7&w=740",
+      "url108"
+    ],
     "stock": 70
   },
   {
@@ -711,7 +873,10 @@
     "genero": "Hombre",
     "tallas": ["S", "M", "L"],
     "colores": ["blanco", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url110"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740",
+      "url110"
+    ],
     "stock": 85
   },
   {
@@ -724,7 +889,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["negro", "rosa"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url112"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ropa-pelo-ciudad-urbana_1157-3199.jpg?t=st=1741695353~exp=1741698953~hmac=d72d846b363b5ef13ceef1cbe83f0a0e1497e89e0ae9cdaa9ded48b602fa6820&w=740",
+      "url112"
+    ],
     "stock": 95
   },
   {
@@ -737,7 +905,10 @@
     "genero": "Niño",
     "tallas": ["4", "6", "8"],
     "colores": ["azul", "verde"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url114"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-asiatica-haciendo-signo-corazon-manos_23-2149396562.jpg?t=st=1741695698~exp=1741699298~hmac=a05871919c420ff492704ac124bcb6531fb159dc64b62b537275e8aa37440693&w=740",
+      "url114"
+    ],
     "stock": 120
   },
   {
@@ -750,7 +921,10 @@
     "genero": "Hombre",
     "tallas": ["30", "32", "34"],
     "colores": ["azul", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url116"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/zapatos-hombre-moderno-ciudad_23-2147961438.jpg?t=st=1741694555~exp=1741698155~hmac=b603890eba7405689febdb88daed57c6859e206096498b2f7f54a07b2a683dcc&w=740",
+      "url116"
+    ],
     "stock": 60
   },
   {
@@ -763,7 +937,10 @@
     "genero": "Mujer",
     "tallas": ["28", "30", "32"],
     "colores": ["negro", "gris"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url118"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/dril-algodon_1303-4488.jpg?t=st=1741695418~exp=1741699018~hmac=4cd1885470be26b3ff27fe73c76228c4985b1ac4a6b8de54af5e6d838aaa46e5&w=740",
+      "url118"
+    ],
     "stock": 70
   },
   {
@@ -776,7 +953,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["azul", "verde"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url120"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/pantalones-sueltos-beige-camiseta-blanca-closeup-moda-femenina_53876-102147.jpg?t=st=1741695750~exp=1741699350~hmac=dfc669041ecc6bd6ed50f3924afe02c50df8a476a15d0e6be25ac7d1d8cfd3d0&w=740",
+      "url120"
+    ],
     "stock": 90
   },
   {
@@ -789,7 +969,10 @@
     "genero": "Hombre",
     "tallas": ["S", "M", "L"],
     "colores": ["gris", "azul marino"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url122"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/joven-posar-al-aire-libre_23-2148883567.jpg?t=st=1741694812~exp=1741698412~hmac=45bc34445bf1487d9c6969bbc04c072667714a6d7f1ffc4e2578ec0bdea1dfc5&w=740",
+      "url122"
+    ],
     "stock": 60
   },
   {
@@ -802,7 +985,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["rosa", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url124"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-linda-mirada-seductora_23-2147633746.jpg?t=st=1741695470~exp=1741699070~hmac=f04a20750ca6fee63b5c5012686a9f9b63047f77ba596adc6f65fe79092d638f&w=740",
+      "url124"
+    ],
     "stock": 55
   },
   {
@@ -815,7 +1001,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["rojo", "amarillo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url126"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ninos-pequenos-que-pasan-tiempo-juntos_23-2148843636.jpg?t=st=1741695890~exp=1741699490~hmac=244ed35c27f89f95c23f533e42d31af3a47cc8d12f62290153351519697c6b75&w=740",
+      "url126"
+    ],
     "stock": 75
   },
   {
@@ -828,7 +1017,10 @@
     "genero": "Hombre",
     "tallas": ["40", "42", "44"],
     "colores": ["blanco", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url128"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/pie-masculino-zapatos-cuero-marron-jeans_1150-5998.jpg?t=st=1741694866~exp=1741698466~hmac=75d0cdd9fdeee61da85cba992a6664475a7a4d0aea87cf4cf4b0fd0edb8777e0&w=740",
+      "url128"
+    ],
     "stock": 50
   },
   {
@@ -841,7 +1033,10 @@
     "genero": "Mujer",
     "tallas": ["36", "38", "40"],
     "colores": ["blanco", "rosa"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url130"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/piernas-mujer-pantalon-rosa-arriba-aire_53876-88431.jpg?t=st=1741695546~exp=1741699146~hmac=08251ef56ebe016d3931957edffe12ed624a73de6c2c60644fa4bc3d9c4b7c42&w=740",
+      "url130"
+    ],
     "stock": 45
   },
   {
@@ -854,7 +1049,10 @@
     "genero": "Niño",
     "tallas": ["28", "30", "32"],
     "colores": ["azul", "verde"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url132"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-zapatillas-blancas_53876-97836.jpg?t=st=1741695829~exp=1741699429~hmac=69bfb02ba90fe52d0a0edac5386f3fc67f42bb6316c974eff8718c8a535b66f5&w=740",
+      "url132"
+    ],
     "stock": 65
   },
   {
@@ -867,7 +1065,10 @@
     "genero": "Hombre",
     "tallas": ["M", "L", "XL"],
     "colores": ["negro", "marrón"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url134"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/hombre-traje_1303-5851.jpg?t=st=1741695022~exp=1741698622~hmac=40a3a5a169f9c2aaec776980335cd3d76c04f6f14a3d743993b379a981f7f051&w=740",
+      "url134"
+    ],
     "stock": 40
   },
   {
@@ -880,7 +1081,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["negro", "azul marino"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url136"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740",
+      "url136"
+    ],
     "stock": 35
   },
   {
@@ -893,7 +1097,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["amarillo", "rojo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url138"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740",
+      "url138"
+    ],
     "stock": 60
   },
   {
@@ -906,7 +1113,10 @@
     "genero": "Hombre",
     "tallas": ["Única"],
     "colores": ["negro", "azul"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url140"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/hombre-estilo-gorro-amarillo_23-2147724841.jpg?t=st=1741695245~exp=1741698845~hmac=2dc701edbd6307d0eee853cabf5f34afd6c7313fdc2c2507ba0d74c39ba76ccf&w=740",
+      "url140"
+    ],
     "stock": 80
   },
   {
@@ -919,7 +1129,10 @@
     "genero": "Mujer",
     "tallas": ["Única"],
     "colores": ["gris", "rosa"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url142"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/retrato-mujer-ropa-invierno_23-2148306369.jpg?t=st=1741695603~exp=1741699203~hmac=c56e2032c85936100153711d82b0f5d483bba1ac33a1963d430670be5ee28f2b&w=740",
+      "url142"
+    ],
     "stock": 60
   },
   {
@@ -932,7 +1145,10 @@
     "genero": "Niño",
     "tallas": ["Única"],
     "colores": ["azul", "rojo"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url144"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/linda-chica-mochila-amarilla_23-2148764016.jpg?t=st=1741695977~exp=1741699577~hmac=c602722899260affe1b3cb32e128cd811afa368ec7e394a5de2ed1a043219bf7&w=740",
+      "url144"
+    ],
     "stock": 70
   },
   {
@@ -945,7 +1161,10 @@
     "genero": "Hombre",
     "tallas": ["S", "M", "L"],
     "colores": ["blanco", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url146"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740",
+      "url146"
+    ],
     "stock": 85
   },
   {
@@ -958,7 +1177,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["negro", "rosa"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url148"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/ropa-pelo-ciudad-urbana_1157-3199.jpg?t=st=1741695353~exp=1741698953~hmac=d72d846b363b5ef13ceef1cbe83f0a0e1497e89e0ae9cdaa9ded48b602fa6820&w=740",
+      "url148"
+    ],
     "stock": 95
   },
   {
@@ -971,7 +1193,10 @@
     "genero": "Niño",
     "tallas": ["4", "6", "8"],
     "colores": ["azul", "verde"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url150"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-asiatica-haciendo-signo-corazon-manos_23-2149396562.jpg?t=st=1741695698~exp=1741699298~hmac=a05871919c420ff492704ac124bcb6531fb159dc64b62b537275e8aa37440693&w=740",
+      "url150"
+    ],
     "stock": 120
   },
   {
@@ -984,7 +1209,10 @@
     "genero": "Hombre",
     "tallas": ["30", "32", "34"],
     "colores": ["azul", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url152"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/zapatos-hombre-moderno-ciudad_23-2147961438.jpg?t=st=1741694555~exp=1741698155~hmac=b603890eba7405689febdb88daed57c6859e206096498b2f7f54a07b2a683dcc&w=740",
+      "url152"
+    ],
     "stock": 60
   },
   {
@@ -997,7 +1225,10 @@
     "genero": "Mujer",
     "tallas": ["28", "30", "32"],
     "colores": ["negro", "gris"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url154"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/dril-algodon_1303-4488.jpg?t=st=1741695418~exp=1741699018~hmac=4cd1885470be26b3ff27fe73c76228c4985b1ac4a6b8de54af5e6d838aaa46e5&w=740",
+      "url154"
+    ],
     "stock": 70
   },
   {
@@ -1010,7 +1241,10 @@
     "genero": "Niño",
     "tallas": ["6", "8", "10"],
     "colores": ["azul", "verde"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/ninos-tiro-completo-posando-juntos_23-2149853383.jpg?t=st=1741151283~exp=1741154883~hmac=4988424ed8508259ea08e73190af0cb1074b9e10020a992438eaf4e22db5e98b&w=740", "url156"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/pantalones-sueltos-beige-camiseta-blanca-closeup-moda-femenina_53876-102147.jpg?t=st=1741695750~exp=1741699350~hmac=dfc669041ecc6bd6ed50f3924afe02c50df8a476a15d0e6be25ac7d1d8cfd3d0&w=740",
+      "url156"
+    ],
     "stock": 90
   },
   {
@@ -1023,7 +1257,10 @@
     "genero": "Hombre",
     "tallas": ["S", "M", "L"],
     "colores": ["gris", "azul marino"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg?t=st=1741150222~exp=1741153822~hmac=bfbcecda60307f2f194ba3200bf96ab1a2e4fa56b87c83256faf522f0e8af7ff&w=740", "url158"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/joven-posar-al-aire-libre_23-2148883567.jpg?t=st=1741694812~exp=1741698412~hmac=45bc34445bf1487d9c6969bbc04c072667714a6d7f1ffc4e2578ec0bdea1dfc5&w=740",
+      "url158"
+    ],
     "stock": 60
   },
   {
@@ -1036,7 +1273,10 @@
     "genero": "Mujer",
     "tallas": ["S", "M", "L"],
     "colores": ["rosa", "negro"],
-    "imagenes": ["https://img.freepik.com/foto-gratis/mujer-vestido-flores-bolsa_23-2148068595.jpg?t=st=1741150749~exp=1741154349~hmac=aafd10ea24032d12e15104b640e4c9d99196155c8e692f1c486bc080832132ee&w=740", "url160"],
+    "imagenes": [
+      "https://img.freepik.com/foto-gratis/chica-linda-mirada-seductora_23-2147633746.jpg?t=st=1741695470~exp=1741699070~hmac=f04a20750ca6fee63b5c5012686a9f9b63047f77ba596adc6f65fe79092d638f&w=740",
+      "url160"
+    ],
     "stock": 55
   }
 ]

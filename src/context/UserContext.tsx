@@ -1,4 +1,5 @@
 'use client'
+import { useBodyOverflow } from "app/hooks/useBodyOverflow";
 import React, { createContext, RefObject, useContext, useEffect, useRef, useState } from "react";
 
 interface User {
@@ -23,6 +24,7 @@ export const UserProvider = ({ children }: { children: React.ReactNode }) => {
   const refLogin = useRef(null as unknown as HTMLDivElement)
   const [user, setUser] = useState<User>({ username: "", email: "" });
   const [openLogin, setOpenLogin] = useState(false)
+  useBodyOverflow(openLogin)
   const checkSession = async () => {
     try {
       const response = await fetch("/api/validate-token");
