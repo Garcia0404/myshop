@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import jwt from "jsonwebtoken";
+import { getUser } from "app/services/authService";
 const SECRET_KEY = process.env.SECRET_KEY_JWT || "";
 export async function GET(req: Request) {
   const token = req.headers
@@ -15,8 +16,12 @@ export async function GET(req: Request) {
     );
   }
   try {
-    jwt.verify(token, SECRET_KEY) as { username: string };
-    return NextResponse.json({ message: "Token válido" });
+    const result = jwt.verify(token, SECRET_KEY) as { username: string };
+    const user = await getUser(result.username);
+    return NextResponse.json({
+      message: "Token válido",
+      data: { username: user.username, email: user.email },
+    });
   } catch {
     return NextResponse.json({ message: "Token inválido" }, { status: 401 });
   }

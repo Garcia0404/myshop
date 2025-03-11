@@ -19,7 +19,7 @@ export const Select = ({ className, children, options }: { className: string, ch
   const handleClick = () => {
     setIsOpen(false)
   }
-  useBodyOverflow(isOpen, false)
+  useBodyOverflow(isOpen)
   useClickOutside(ref, () => {
     if (isOpen) {
       setIsOpen(false);

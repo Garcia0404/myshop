@@ -6,19 +6,13 @@ import Separator from "./ui/Separator"
 import { useClickOutside } from "app/hooks/useClickOutside"
 import { useBodyOverflow } from "app/hooks/useBodyOverflow"
 import { useRouter } from "next/navigation"
+import { CloseSvg } from "./ui/CloseSvg"
+import { useUser } from "app/context/UserContext"
 export const CartSvg = () => {
   return (
-    <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+    <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 max-md:size-8">
       <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
     </svg>
-  )
-}
-const CloseSvg = () => {
-  return (
-    <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
-    </svg>
-
   )
 }
 export const CartItemCard = ({ product, updateQuantity, removeFromCart }: { product: CartProduct, updateQuantity: (productId: string, talla: string, quantity: number) => void, removeFromCart: (productId: string, talla: string) => void }) => {
@@ -55,11 +49,12 @@ export const CartItemCard = ({ product, updateQuantity, removeFromCart }: { prod
   )
 }
 const BuyButton = () => {
+  const { setOpenLogin } = useUser()
   const { replace } = useRouter()
   const checkSession = async () => {
     const response = await fetch("/api/validate-token")
     if (response.ok) replace('/cart')
-    if(!response.ok) replace('/login')
+    if (!response.ok) setOpenLogin(true)
   };
   return (
     <button onClick={checkSession} className="w-full focus:bg-blue-500 py-2 my-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-white transition-colors cursor-pointer">Comprar</button>
@@ -67,54 +62,60 @@ const BuyButton = () => {
 }
 export const ShoppingCart = ({ callback, openCart }: { callback: () => void, openCart: boolean }) => {
   const ref = useRef(null as unknown as HTMLDivElement)
+  const { refLogin } = useUser()
   const cart = useCartStore((state) => state.cart)
   const total = useCartStore((state) => state.getTotal)
   const updateQuantity = useCartStore((state) => state.updateQuantity)
   const removeFromCart = useCartStore((state) => state.removeFromCart)
-  useBodyOverflow(openCart, true)
+  useBodyOverflow(openCart)
   useClickOutside(ref, () => {
     if (openCart) callback()
-  })
+  }, refLogin)
   useEffect(() => {
     localStorage.setItem('cart', JSON.stringify(cart))
   }, [cart])
   return (
     <AnimatePresence>
       {openCart && (
-        <motion.div initial={{ opacity: 0, scale: 0.8 }}
-          ref={ref}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.8 }}
-          transition={{ duration: 0.3, ease: [0.76, 0, 0.24, 1] }}
-          className="w-[450px] max-[450px]:w-screen h-[540px] fixed top-0 right-0 left-0 mx-auto my-auto bottom-0 z-50 flex flex-col gap-2 p-2">
-          <div className="bg-zinc-900 flex flex-col gap-2 p-2 h-full rounded-xl">
-            <div className="mt-2 flex justify-end cursor-pointer hover:text-white/60 transition-colors">
-              <div onClick={callback} className="w-min">
-                <CloseSvg />
+        <motion.div className="w-full min-h-screen fixed top-0 right-0 left-0 flex z-40"
+          initial={{ background: "rgba(0,0,0,0)", backdropFilter: "blur(0px)" }}
+          animate={{ background: "rgba(0,0,0,0.8)", backdropFilter: "blur(10px)" }}
+          exit={{ background: "rgba(0,0,0,0)", backdropFilter: "blur(0px)" }}>
+          <motion.div initial={{ opacity: 0, scale: 0.8 }}
+            ref={ref}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            transition={{ duration: 0.3, ease: [0.76, 0, 0.24, 1] }}
+            className="w-[450px] max-[450px]:w-screen h-[540px] mx-auto my-auto bottom-0 z-40 flex flex-col gap-2 p-2">
+            <div className="bg-zinc-900 flex flex-col gap-2 p-2 h-full rounded-xl">
+              <div className="mt-2 flex justify-end cursor-pointer hover:text-white/60 transition-colors">
+                <div onClick={callback} className="w-min">
+                  <CloseSvg />
+                </div>
               </div>
+              <ul className="flex flex-col flex-1 overflow-auto gap-2" style={{ scrollbarWidth: "none" }}>
+                <AnimatePresence>
+                  {cart.length !== 0 ?
+                    cart.map(item => (
+                      <motion.li initial={{ opacity: 0 }} exit={{ opacity: 0 }} animate={{ opacity: 1 }} layoutId={`${item.id}-${item.talla}`} key={`${item.id}-${item.talla}`}>
+                        <CartItemCard removeFromCart={removeFromCart} updateQuantity={updateQuantity} product={item} />
+                      </motion.li>
+                    )) : (
+                      <motion.div layout initial={{ opacity: 0 }} transition={{ delay: 0.3 }} animate={{ opacity: 1 }} className="justify-center flex-1 flex items-center text-xl text-white/30 mb-10">El carrito está vacío</motion.div>
+                    )
+                  }
+                </AnimatePresence>
+              </ul>
+              {cart.length !== 0 && (<div className="px-2">
+                <Separator />
+                <div className="flex justify-between text-xl">
+                  <span>Total:</span>
+                  <span>S/ {total()}</span>
+                </div>
+                <BuyButton />
+              </div>)}
             </div>
-            <ul className="flex flex-col flex-1 overflow-auto gap-2" style={{ scrollbarWidth: "none" }}>
-              <AnimatePresence>
-                {cart.length !== 0 ?
-                  cart.map(item => (
-                    <motion.li initial={{ opacity: 0 }} exit={{ opacity: 0 }} animate={{ opacity: 1 }} layoutId={`${item.id}-${item.talla}`} key={`${item.id}-${item.talla}`}>
-                      <CartItemCard removeFromCart={removeFromCart} updateQuantity={updateQuantity} product={item} />
-                    </motion.li>
-                  )) : (
-                    <motion.div layout initial={{ opacity: 0 }} transition={{ delay: 0.3 }} animate={{ opacity: 1 }} className="justify-center flex-1 flex items-center text-xl text-white/30 mb-10">El carrito está vacío</motion.div>
-                  )
-                }
-              </AnimatePresence>
-            </ul>
-            {cart.length !== 0 && (<div className="px-2">
-              <Separator />
-              <div className="flex justify-between text-xl">
-                <span>Total:</span>
-                <span>S/ {total()}</span>
-              </div>
-              <BuyButton />
-            </div>)}
-          </div>
+          </motion.div>
         </motion.div>
       )}
     </AnimatePresence>
