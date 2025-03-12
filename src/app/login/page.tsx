@@ -21,7 +21,7 @@ export default function LoginPage() {
       if (!response.ok) setShow(true)
     };
     checkSession();
-  }, [])
+  }, [replace])
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     if (!formData.username || !formData.password) {

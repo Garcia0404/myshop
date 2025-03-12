@@ -15,7 +15,7 @@ export default function CartPage() {
       if (response.ok) setShow(true)
     };
     checkSession();
-  }, [])
+  }, [replace])
   return (
     <>
       {

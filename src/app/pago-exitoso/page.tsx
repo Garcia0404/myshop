@@ -13,7 +13,7 @@ const Content = () => {
       clearCart()
       console.log('Pago exitoso:', Object.fromEntries(searchParams.entries()));
     }
-  }, [searchParams]);
+  }, [searchParams, clearCart]);
   return (
     <>
       <h1 className="text-4xl font-bold mb-4 text-center">¡Pago Exitoso!</h1>

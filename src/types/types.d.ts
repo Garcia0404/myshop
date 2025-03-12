@@ -11,3 +11,9 @@ interface Product {
   imagenes: string[];
   stock: number;
 }
+interface DataProducts {
+  products: Product[];
+  total: number;
+  page: number;
+  totalPages: number;
+}
